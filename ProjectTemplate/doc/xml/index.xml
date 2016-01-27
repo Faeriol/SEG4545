@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.10">
+  <compound refid="template_8h" kind="file"><name>template.h</name>
+    <member refid="template_8h_1a7138ed1511a8cbd3c982ce20071a83b7" kind="define"><name>MACRO_HF</name></member>
+    <member refid="template_8h_1a35eef0621f3687d2b6fe9712fbd68b55" kind="variable"><name>global_variable_hf</name></member>
+    <member refid="template_8h_1a8210bf00ef427ddd7cb7ac758778356c" kind="function"><name>entry_point_function_one</name></member>
+    <member refid="template_8h_1a3bb155d761781f687f13cea299618968" kind="function"><name>entry_point_function_two</name></member>
+  </compound>
+  <compound refid="mainpage_8dox" kind="file"><name>mainpage.dox</name>
+  </compound>
+  <compound refid="product__release__document_8dox" kind="file"><name>product_release_document.dox</name>
+  </compound>
+  <compound refid="template_8c" kind="file"><name>template.c</name>
+    <member refid="template_8c_1aa292137032b645eef0bb9f5008b737b9" kind="define"><name>MACRO_SF</name></member>
+    <member refid="template_8c_1a395dbc90e8c7a0ac05b0cf8c6438b7e5" kind="variable"><name>global_variable_sf</name></member>
+    <member refid="template_8c_1a840291bc02cba5474a4cb46a9b9566fe" kind="function"><name>main</name></member>
+    <member refid="template_8c_1a8210bf00ef427ddd7cb7ac758778356c" kind="function"><name>entry_point_function_one</name></member>
+    <member refid="template_8c_1a3bb155d761781f687f13cea299618968" kind="function"><name>entry_point_function_two</name></member>
+    <member refid="template_8c_1ae15c1828ca7bb40709c3b4b1224c02cc" kind="function"><name>local_function_one</name></member>
+    <member refid="template_8c_1a6493901a6ddd614d6f9b0d3d72d0d414" kind="function"><name>local_function_two</name></member>
+    <member refid="template_8c_1a1b97fa4a9ffcf4b70a6403ba26fd3a5c" kind="function"><name>ISR</name></member>
+    <member refid="template_8c_1a451a644f2b139393fc1fe1cf7373cb93" kind="function"><name>ISR</name></member>
+  </compound>
+  <compound refid="product_release_main_page" kind="page"><name>product_release_main_page</name>
+  </compound>
+  <compound refid="introduction" kind="page"><name>introduction</name>
+  </compound>
+  <compound refid="requirements" kind="page"><name>requirements</name>
+  </compound>
+  <compound refid="hardware_design" kind="page"><name>hardware_design</name>
+  </compound>
+  <compound refid="software_design" kind="page"><name>software_design</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

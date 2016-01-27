@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>provide title for project</title>
+    <detaileddescription>
+<para><emphasis><bold>Introduction</bold> <bold>to</bold> <bold>template</bold>  </emphasis> <simplesect kind="note"><para>You may use this template to produce your source code, which is documented and coded as per the stipulated standards. This template is produced using Eclipse IDE and Doxygen document generation tool. You may refer to Documentation and Coding Standards - Guidelines for more details; or you may visit respective official web-site. <linebreak/>
+<table rows="5" cols="2"><row>
+<entry thead="yes"><para>Description </para></entry><entry thead="yes"><para>Web-link/Document  </para></entry></row>
+<row>
+<entry thead="no"><para>Documentation and Coding Standards - Guidelines </para></entry><entry thead="no"><para>documentation_and_coding_standard_guidelines.pdf </para></entry></row>
+<row>
+<entry thead="no"><para>Doxygen Command Reference </para></entry><entry thead="no"><para>doxygen_command_reference.pdf </para></entry></row>
+<row>
+<entry thead="no"><para>Doxygen Document Generation </para></entry><entry thead="no"><para><ulink url="http://www.stack.nl/~dimitri/doxygen">Doxygen</ulink> </para></entry></row>
+<row>
+<entry thead="no"><para>GNU Coding Standards </para></entry><entry thead="no"><para><ulink url="http://www.gnu.org/prep/standards/standards.html">GNU Coding Standards</ulink> </para></entry></row>
+</table>
+</para></simplesect>
+<simplesect kind="attention"><para>Remember to remove and/or replace each section/topic of source file and respective documentation with relevant and applicable information applicable to your project. </para></simplesect>
+<simplesect kind="warning"><para>It is recommended and required to read through and understand the concepts from respective guide before attempting to use this template.</para></simplesect>
+<hruler/>
+</para><para><simplesect kind="author"><para>provide author details </para></simplesect>
+<simplesect kind="date"><para>provide date </para></simplesect>
+<simplesect kind="copyright"><para>provide copyright information </para></simplesect>
+<simplesect kind="par"><title>You may provide an overview of the project. Details can be organized in multiple sections and subsection.</title><para>Replace below the section/subsection names and corresponding description/details according to need. </para></simplesect>
+</para><sect1 id="index_1section_name_1">
+<title>Section 1 provide section name and description</title>
+<para><simplesect kind="par"><title>Put your Paragraph describing section</title><para><linebreak/>
+</para></simplesect>
+</para><sect2 id="index_1subsection_name_1_1">
+<title>Subsection 1.1 provide subsection name and description</title>
+<para><simplesect kind="par"><title>(paragraph - 01)</title><para></para></simplesect>
+<simplesect kind="par"><title>(paragraph - 02)</title><para><linebreak/>
+<linebreak/>
+</para></simplesect>
+</para></sect2>
+</sect1>
+<sect1 id="index_1section_name_2">
+<title>Section 2 provide section name and description</title>
+<para><simplesect kind="par"><title>Put your Paragraph describing section</title><para></para></simplesect>
+</para><sect2 id="index_1subsection_name_2_1">
+<title>Subsection 2.1 provide subsection name and description</title>
+<para><simplesect kind="par"><title>(paragraph - 01)</title><para></para></simplesect>
+<simplesect kind="par"><title>(paragraph - 02)</title><para></para></simplesect>
+<simplesect kind="par"><title></title><para></para></simplesect>
+<hruler/>
+ </para></sect2>
+</sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

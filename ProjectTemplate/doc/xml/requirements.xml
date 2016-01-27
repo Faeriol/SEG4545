@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="requirements" kind="page">
+    <compoundname>requirements</compoundname>
+    <title>Requirements</title>
+    <detaileddescription>
+<para>Provide details of functional requirements for the sprint.</para><para>Go back to <ref refid="product_release_main_page" kindref="compound">Release Note:Main Menu</ref>. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

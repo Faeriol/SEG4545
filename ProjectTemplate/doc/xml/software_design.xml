@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="software_design" kind="page">
+    <compoundname>software_design</compoundname>
+    <title>Software Design</title>
+    <detaileddescription>
+<para>provide brief details for this section.</para><sect1 id="software_design_1sw_section_01">
+<title>Section 01</title>
+<para><image type="html" name="test_image.png">Image: title</image>
+To load an image set the parameter IMAGE_PATH to appropriate folder in doxyfile for the project</para><sect2 id="software_design_1sw_subsection_01">
+<title>Subsction 01</title>
+<para>provide details<itemizedlist>
+<listitem><para><ref refid="software_design_1sw_section_02" kindref="member">Section 02</ref> Section 02</para></listitem><listitem><para><ref refid="software_design_1sw_section_03" kindref="member">Section 03</ref> Section 03</para></listitem></itemizedlist>
+</para></sect2>
+<sect2 id="software_design_1sw_subsection_02">
+<title>sw_subsection_02</title>
+<para>Table <table rows="4" cols="3"><row>
+<entry thead="yes"><para>Column 1 </para></entry><entry thead="yes"><para>Column 2 </para></entry><entry thead="yes"><para>Details  </para></entry></row>
+<row>
+<entry thead="no"><para>Details </para></entry><entry thead="no"><para>Details </para></entry><entry thead="no"><para>Details </para></entry></row>
+<row>
+<entry thead="no"><para>Details </para></entry><entry thead="no"><para>Details </para></entry><entry thead="no"><para>Details </para></entry></row>
+<row>
+<entry thead="no"><para>Details </para></entry><entry thead="no"><para>Details </para></entry><entry thead="no"><para>Details </para></entry></row>
+</table>
+</para><para>Go to <ref refid="software_design" kindref="compound">Top</ref> / <ref refid="product_release_main_page" kindref="compound">Release Note:Main Menu</ref>.</para><para><linebreak/>
+<linebreak/>
+</para></sect2>
+</sect1>
+<sect1 id="software_design_1sw_section_02">
+<title>Section 02</title>
+<para><image type="html" name="test_image.png">Image: title</image>
+To load an image set the parameter IMAGE_PATH to appropriate folder in doxyfile for the project</para><sect2 id="software_design_1sw_subsection_04">
+<title>Subsection 04</title>
+<para><linebreak/>
+Go to <ref refid="software_design" kindref="compound">Top</ref> / <ref refid="product_release_main_page" kindref="compound">Release Note:Main Menu</ref>.</para><para><linebreak/>
+ <linebreak/>
+</para></sect2>
+</sect1>
+<sect1 id="software_design_1sw_section_03">
+<title>Section 03</title>
+<sect2 id="software_design_1sw_subsection_05">
+<title>Subsection 05</title>
+<para>Go to <ref refid="software_design" kindref="compound">Top</ref> / <ref refid="product_release_main_page" kindref="compound">Release Note:Main Menu</ref>. </para></sect2>
+</sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

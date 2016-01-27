@@ -1,0 +1,40 @@
+\hypertarget{main_8c}{}\section{main.\+c File Reference}
+\label{main_8c}\index{main.\+c@{main.\+c}}
+
+
+Tests for the U\+S\+A\+R\+T module.  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$stdbool.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$avr/io.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}Free\+R\+T\+O\+S.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}task.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}queue.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}semphr.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}usart\+Serial.\+h\char`\"{}}\\*
+Include dependency graph for main.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{group__testing_u_s_a_r_t_module_ga61c9da46a8b9b11d2a8e80f9455b6621}{test\+Case1b} ()
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+char \hyperlink{group__testing_u_s_a_r_t_module_ga57875f7dc50e8d10d66a9dee808b1f25}{buffer} \mbox{[}B\+U\+F\+S\+I\+Z\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Tests for the U\+S\+A\+R\+T module. 
+
+\begin{DoxyAuthor}{Author}
+Gilbert Arbez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Jun3 4 2015 
+\end{DoxyDate}

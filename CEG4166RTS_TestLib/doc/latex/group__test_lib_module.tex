@@ -1,0 +1,154 @@
+\hypertarget{group__test_lib_module}{}\section{U\+S\+A\+R\+T Asynchronous Serial Module Testing}
+\label{group__test_lib_module}\index{U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{group__test_lib_module_ga61c9da46a8b9b11d2a8e80f9455b6621}{test\+Case1b} ()
+\item 
+void \hyperlink{group__test_lib_module_ga3c7b4abb40563fadae17497ba29c436b}{test\+Case2a} ()
+\item 
+void \hyperlink{group__test_lib_module_ga5bc7ab87101dd4c95a3672264f8f5125}{test\+Case2b} ()
+\item 
+void \hyperlink{group__test_lib_module_gaa5cf1ffc397cad267ae2cd3ac4be2d1c}{test\+Case3} ()
+\item 
+void \hyperlink{group__test_lib_module_ga2d24679a76426292b1124c9199fbeefa}{test\+Case4a} ()
+\item 
+void \hyperlink{group__test_lib_module_ga1d0d9127147431bdedd66046d2c5a47a}{test\+Case4b} ()
+\item 
+void \hyperlink{group__test_lib_module_gab46667e7f4dc32d3a4e2660ba0c20568}{test\+Case5} ()
+\item 
+void \hyperlink{group__test_lib_module_gaeb12359662ac449e826155c79d65637c}{test\+Case6} ()
+\item 
+void \hyperlink{group__test_lib_module_gad0ce05f776690e7cab14c22c4ce8834a}{test\+Case7a} ()
+\item 
+void \hyperlink{group__test_lib_module_ga1891010ade2f2ab501a17b2bf2474872}{test\+Case7b} ()
+\item 
+void \hyperlink{group__test_lib_module_gaeeb897dbfded9a17cad6053d83dbc8d3}{test\+Case8} ()
+\item 
+void \hyperlink{group__test_lib_module_ga56c83e96e3a1c3615a9fe20ea6e462ee}{testing2\+U\+S\+A\+R\+T\+S} (int, int, uint8\+\_\+t $\ast$)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+char \hyperlink{group__test_lib_module_ga57875f7dc50e8d10d66a9dee808b1f25}{buffer} \mbox{[}B\+U\+F\+S\+I\+Z\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\hypertarget{group__test_lib_module_ga61c9da46a8b9b11d2a8e80f9455b6621}{}\index{U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}!test\+Case1b@{test\+Case1b}}
+\index{test\+Case1b@{test\+Case1b}!U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}}
+\subsubsection[{test\+Case1b}]{\setlength{\rightskip}{0pt plus 5cm}void test\+Case1b (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{group__test_lib_module_ga61c9da46a8b9b11d2a8e80f9455b6621}
+Testing print functions to U\+S\+A\+R\+T0 as default U\+S\+A\+R\+T with interrupts. It is expected that the default 0 is already opened. \hypertarget{group__test_lib_module_ga3c7b4abb40563fadae17497ba29c436b}{}\index{U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}!test\+Case2a@{test\+Case2a}}
+\index{test\+Case2a@{test\+Case2a}!U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}}
+\subsubsection[{test\+Case2a}]{\setlength{\rightskip}{0pt plus 5cm}void test\+Case2a (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{group__test_lib_module_ga3c7b4abb40563fadae17497ba29c436b}
+Testing print functions to U\+S\+A\+R\+T0 as default U\+S\+A\+R\+T without interrupts. Leaves the connection to U\+S\+A\+R\+T0 open. To be executed before enabling interrupts.
+
+\begin{DoxyReturn}{Returns}
+-\/ the U\+S\+A\+R\+T identifier of the opened U\+S\+A\+R\+T -\/ that is U\+S\+A\+R\+T0. 
+\end{DoxyReturn}
+\hypertarget{group__test_lib_module_ga5bc7ab87101dd4c95a3672264f8f5125}{}\index{U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}!test\+Case2b@{test\+Case2b}}
+\index{test\+Case2b@{test\+Case2b}!U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}}
+\subsubsection[{test\+Case2b}]{\setlength{\rightskip}{0pt plus 5cm}void test\+Case2b (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{group__test_lib_module_ga5bc7ab87101dd4c95a3672264f8f5125}
+Testing print functions to U\+S\+A\+R\+T0 defined explicitly (with interrupts). It is expected that U\+S\+A\+R\+T0 is already opened. \hypertarget{group__test_lib_module_gaa5cf1ffc397cad267ae2cd3ac4be2d1c}{}\index{U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}!test\+Case3@{test\+Case3}}
+\index{test\+Case3@{test\+Case3}!U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}}
+\subsubsection[{test\+Case3}]{\setlength{\rightskip}{0pt plus 5cm}void test\+Case3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{group__test_lib_module_gaa5cf1ffc397cad267ae2cd3ac4be2d1c}
+Closes U\+S\+A\+R\+T0 and renables it. \hypertarget{group__test_lib_module_ga2d24679a76426292b1124c9199fbeefa}{}\index{U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}!test\+Case4a@{test\+Case4a}}
+\index{test\+Case4a@{test\+Case4a}!U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}}
+\subsubsection[{test\+Case4a}]{\setlength{\rightskip}{0pt plus 5cm}void test\+Case4a (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{group__test_lib_module_ga2d24679a76426292b1124c9199fbeefa}
+Reads character from keyboard and echos to terminal (type S to stop) with polling routines. It is expected that U\+S\+A\+R\+T0 is already opened. Use before interrupts are enabled. \hypertarget{group__test_lib_module_ga1d0d9127147431bdedd66046d2c5a47a}{}\index{U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}!test\+Case4b@{test\+Case4b}}
+\index{test\+Case4b@{test\+Case4b}!U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}}
+\subsubsection[{test\+Case4b}]{\setlength{\rightskip}{0pt plus 5cm}void test\+Case4b (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{group__test_lib_module_ga1d0d9127147431bdedd66046d2c5a47a}
+Reads character from keyboard and echos to terminal (type S to stop) with interrupt driven routines. It is expected that U\+S\+A\+R\+T0 is already opened. Use after interrupts are enabled. \hypertarget{group__test_lib_module_gab46667e7f4dc32d3a4e2660ba0c20568}{}\index{U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}!test\+Case5@{test\+Case5}}
+\index{test\+Case5@{test\+Case5}!U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}}
+\subsubsection[{test\+Case5}]{\setlength{\rightskip}{0pt plus 5cm}void test\+Case5 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{group__test_lib_module_gab46667e7f4dc32d3a4e2660ba0c20568}
+Waits until 20 characters are collected in the ring buffer (displays count). Flushes the characters collected. Waits until 5 characters are received -\/ collect and print them. \hypertarget{group__test_lib_module_gaeb12359662ac449e826155c79d65637c}{}\index{U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}!test\+Case6@{test\+Case6}}
+\index{test\+Case6@{test\+Case6}!U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}}
+\subsubsection[{test\+Case6}]{\setlength{\rightskip}{0pt plus 5cm}void test\+Case6 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{group__test_lib_module_gaeb12359662ac449e826155c79d65637c}
+Transmits very long message 20 times, 2000 characters, to fill transmit buffer (255 characters). \hypertarget{group__test_lib_module_gad0ce05f776690e7cab14c22c4ce8834a}{}\index{U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}!test\+Case7a@{test\+Case7a}}
+\index{test\+Case7a@{test\+Case7a}!U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}}
+\subsubsection[{test\+Case7a}]{\setlength{\rightskip}{0pt plus 5cm}void test\+Case7a (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{group__test_lib_module_gad0ce05f776690e7cab14c22c4ce8834a}
+Transmission and reception between U\+S\+A\+R\+T1 and U\+S\+A\+R\+T2. 
+
+Here is the call graph for this function\+:
+% FIG 0
+
+
+\hypertarget{group__test_lib_module_ga1891010ade2f2ab501a17b2bf2474872}{}\index{U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}!test\+Case7b@{test\+Case7b}}
+\index{test\+Case7b@{test\+Case7b}!U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}}
+\subsubsection[{test\+Case7b}]{\setlength{\rightskip}{0pt plus 5cm}void test\+Case7b (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{group__test_lib_module_ga1891010ade2f2ab501a17b2bf2474872}
+Transmission and reception between U\+S\+A\+R\+T1 and U\+S\+A\+R\+T2. U\+S\+A\+R\+T1 is setup as the default U\+S\+A\+R\+T. \hypertarget{group__test_lib_module_gaeeb897dbfded9a17cad6053d83dbc8d3}{}\index{U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}!test\+Case8@{test\+Case8}}
+\index{test\+Case8@{test\+Case8}!U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}}
+\subsubsection[{test\+Case8}]{\setlength{\rightskip}{0pt plus 5cm}void test\+Case8 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{group__test_lib_module_gaeeb897dbfded9a17cad6053d83dbc8d3}
+Transmission and reception between U\+S\+A\+R\+T2 and U\+S\+A\+R\+T3. 
+
+Here is the call graph for this function\+:
+% FIG 1
+
+
+\hypertarget{group__test_lib_module_ga56c83e96e3a1c3615a9fe20ea6e462ee}{}\index{U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}!testing2\+U\+S\+A\+R\+T\+S@{testing2\+U\+S\+A\+R\+T\+S}}
+\index{testing2\+U\+S\+A\+R\+T\+S@{testing2\+U\+S\+A\+R\+T\+S}!U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}}
+\subsubsection[{testing2\+U\+S\+A\+R\+T\+S}]{\setlength{\rightskip}{0pt plus 5cm}void testing2\+U\+S\+A\+R\+T\+S (
+\begin{DoxyParamCaption}
+\item[{int}]{usart\+A, }
+\item[{int}]{usart\+B, }
+\item[{uint8\+\_\+t $\ast$}]{case\+Name}
+\end{DoxyParamCaption}
+)}\label{group__test_lib_module_ga56c83e96e3a1c3615a9fe20ea6e462ee}
+Transmission and reception between two U\+S\+A\+R\+T\+S. 
+
+\subsection{Variable Documentation}
+\hypertarget{group__test_lib_module_ga57875f7dc50e8d10d66a9dee808b1f25}{}\index{U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}!buffer@{buffer}}
+\index{buffer@{buffer}!U\+S\+A\+R\+T Asynchronous Serial Module Testing@{U\+S\+A\+R\+T Asynchronous Serial Module Testing}}
+\subsubsection[{buffer}]{\setlength{\rightskip}{0pt plus 5cm}char buffer\mbox{[}B\+U\+F\+S\+I\+Z\mbox{]}}\label{group__test_lib_module_ga57875f7dc50e8d10d66a9dee808b1f25}
+Testing print functions to U\+S\+A\+R\+T0 as default U\+S\+A\+R\+T without interrupts. Leaves the connection to U\+S\+A\+R\+T0 open. To be executed before enabling interrupts.
+
+\begin{DoxyReturn}{Returns}
+-\/ the U\+S\+A\+R\+T identifier of the opened U\+S\+A\+R\+T -\/ that is U\+S\+A\+R\+T0. 
+\end{DoxyReturn}

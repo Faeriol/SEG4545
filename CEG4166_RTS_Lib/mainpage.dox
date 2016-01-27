@@ -1,0 +1,19 @@
+/* (Doxygen help: below section prepares the index page or first chapter of your document. Hence, use it effectively to
+ * describe abstract level details about your project.
+ */
+
+/*!
+ * @mainpage CEG4166/CSI4141 - Real Time System Library
+ * @author Gilbert Arbez, ing.   E-mail: garbez@uottawa.ca
+ * @date July 16, 2015
+ * @copyright University of Ottawa
+ * \par This library contains a number of modules that can be used to support the CEG4166/CSI4141 projects.  They are designed to 
+ * run in the AtMega 2560 Arduino card.
+ * \section section_name_1 Section 1 USART Serial Module
+ * \par This module allows the use of any of the 4 USARTs available in the microcontroller.  A number of Unix/Linux like print functions are provided as well as low level character  read and write functions.
+ * \n
+ * \section section_name_2 Section 2 Servo Motor Motion Module
+ * \par This module manipulates the microcontroller timer modules that allows control of any of the 3 servo motors available on the StingRay robot.
+ *
+ * ********
+ */

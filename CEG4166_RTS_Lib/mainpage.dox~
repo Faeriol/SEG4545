@@ -1,0 +1,43 @@
+/*!
+ * \e \b Introduction \b to \b template
+ *
+ * \note You may use this template to produce your source code, which is documented and coded as per the
+ * stipulated standards. This template is produced using Eclipse IDE and Doxygen document generation tool.
+ * You may refer to Documentation and Coding Standards - Guidelines for more details; or you may visit
+ * respective official
+ * web-site.
+ * \n
+ * Description                                     |        Web-link/Document
+ * ------------------------------------------------|--------------------------------------
+ * Documentation and Coding Standards - Guidelines | documentation_and_coding_standard_guidelines.pdf
+ * Doxygen Command Reference                       | doxygen_command_reference.pdf
+ * Doxygen Document Generation 				 	   |[Doxygen](http://www.stack.nl/~dimitri/doxygen)
+ * GNU Coding Standards							   |[GNU Coding Standards](http://www.gnu.org/prep/standards/standards.html)
+ *
+ *\attention Remember to remove and/or replace each section/topic of source file and respective documentation
+ * with relevant and applicable information applicable to your project.
+ * \warning It is recommended and required to read through and understand the concepts from respective guide
+ * before attempting to use this template.
+ *
+ * ***********
+ */
+
+/* (Doxygen help: below section prepares the index page or first chapter of your document. Hence, use it effectively to
+ * describe abstract level details about your project.
+ */
+
+/*!
+ * @mainpage CEG4166/CSI4141 - Real Time System Library
+ * @author Gilbert Arbez, ing.   E-mail: garbez@uottawa.ca
+ * @date July 16, 2015
+ * @copyright University of Ottawa
+ * \par This library contains a number of modules that can be used to support the CEG4166/CSI4141 projects.  They are designed to 
+ * run in the AtMega 2560 Arduino card.
+ * \section section_name_1 Section 1 USART Serial Module
+ * \par This module allows the use of any of the 4 USARTs available in the microcontroller.  A number of Unix/Linux like print functions are provided as well as low level character  read and write functions.
+ * \n
+ * \section section_name_2 Section 2 Servo Motor Motion Module
+ * \par This module manipulates the microcontroller timer modules that allows control of any of the 3 servo motors available on the StingRay robot.
+ *
+ * ********
+ */

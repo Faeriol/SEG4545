@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="mainpage_8dox" kind="file" language="C++">
+    <compoundname>mainpage.dox</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="25"><highlight class="comment">/*<sp/>(Doxygen<sp/>help:<sp/>below<sp/>section<sp/>prepares<sp/>the<sp/>index<sp/>page<sp/>or<sp/>first<sp/>chapter<sp/>of<sp/>your<sp/>document.<sp/>Hence,<sp/>use<sp/>it<sp/>effectively<sp/>to</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>describe<sp/>abstract<sp/>level<sp/>details<sp/>about<sp/>your<sp/>project.</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="mainpage.dox"/>
+  </compounddef>
+</doxygen>

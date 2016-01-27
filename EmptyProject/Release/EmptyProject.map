@@ -1,0 +1,782 @@
+Archive member included because of file (symbol)
+
+D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+                              ./main.o (xPortGetFreeHeapSize)
+D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+                              D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o) (vTaskSuspendAll)
+D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+                              D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o) (pxPortInitialiseStack)
+D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(system_tick.o)
+                              D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(port.o) (system_tick)
+D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(system_time.o)
+                              D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(system_tick.o) (__system_time)
+D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+                              D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o) (vListInitialise)
+D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(runtTimeStatsTimer.o)
+                              D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o) (xconfigTimerForRunTimeStats)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o)
+                              (vfprintf)
+D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                              ./main.o (usart_print_P)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodsi4.o)
+                              D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o) (__udivmodsi4)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_prologue.o)
+                              ./main.o (__prologue_saves__)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_epilogue.o)
+                              D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o) (__epilogue_restores__)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_exit.o)
+                              c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o (exit)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clear_bss.o)
+                              ./main.o (__do_clear_bss)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ftoa_engine.o)
+                              c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o) (__ftoa_engine)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strlen_P.o)
+                              D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o) (strlen_P)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strnlen_P.o)
+                              c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o) (strnlen_P)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memset.o)
+                              D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o) (memset)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strnlen.o)
+                              c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o) (strnlen)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(fputc.o)
+                              c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o) (fputc)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(sprintf.o)
+                              D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o) (sprintf)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(vsnprintf.o)
+                              D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o) (vsnprintf)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(vsnprintf_p.o)
+                              D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o) (vsnprintf_P)
+c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ultoa_invert.o)
+                              c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o) (__ultoa_invert)
+
+Allocating common symbols
+Common symbol       size              file
+
+usartComBuf         0x74              D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+usartfd             0x2               ./main.o
+__system_time       0x4               D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(system_time.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00100000         xr
+data             0x00800200         0x0000fe00         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+LOAD ./main.o
+LOAD D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a
+LOAD c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libm.a
+LOAD c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libprintf_flt.a
+LOAD D:\ProgDev\CPP\EclipseWS\freeRTOS\FreeRTOS801\Release\libFreeRTOS801.a
+LOAD D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a
+LOAD c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a
+LOAD c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a
+LOAD c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x590c
+ *(.vectors)
+ .vectors       0x00000000       0xe4 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x000000e4       0x6c ./main.o
+ .progmem.data  0x00000150        0x8 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o)
+ .progmem.data  0x00000158       0xfa c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ftoa_engine.o)
+                0x00000252                . = ALIGN (0x2)
+                0x00000252                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000252        0x0 linker stubs
+ *(.trampolines*)
+                0x00000252                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ .lowtext       0x00000252      0x2e8 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ *(.lowtext*)
+                0x0000053a                __ctors_start = .
+ *(.ctors)
+                0x0000053a                __ctors_end = .
+                0x0000053a                __dtors_start = .
+ *(.dtors)
+                0x0000053a                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000053a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+                0x0000053a                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000053a       0x10 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000054a       0x1c c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+                0x0000054a                __do_copy_data
+ .init4         0x00000566       0x10 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clear_bss.o)
+                0x00000566                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000576        0x8 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+ *(.init9)
+ *(.text)
+ .text          0x0000057e        0x4 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+                0x0000057e                __vector_38
+                0x0000057e                __vector_22
+                0x0000057e                __vector_28
+                0x0000057e                __vector_1
+                0x0000057e                __vector_34
+                0x0000057e                __vector_24
+                0x0000057e                __vector_12
+                0x0000057e                __vector_46
+                0x0000057e                __bad_interrupt
+                0x0000057e                __vector_6
+                0x0000057e                __vector_31
+                0x0000057e                __vector_35
+                0x0000057e                __vector_39
+                0x0000057e                __vector_3
+                0x0000057e                __vector_23
+                0x0000057e                __vector_30
+                0x0000057e                __vector_45
+                0x0000057e                __vector_11
+                0x0000057e                __vector_13
+                0x0000057e                __vector_17
+                0x0000057e                __vector_19
+                0x0000057e                __vector_56
+                0x0000057e                __vector_7
+                0x0000057e                __vector_49
+                0x0000057e                __vector_41
+                0x0000057e                __vector_43
+                0x0000057e                __vector_27
+                0x0000057e                __vector_5
+                0x0000057e                __vector_33
+                0x0000057e                __vector_47
+                0x0000057e                __vector_4
+                0x0000057e                __vector_44
+                0x0000057e                __vector_9
+                0x0000057e                __vector_2
+                0x0000057e                __vector_21
+                0x0000057e                __vector_15
+                0x0000057e                __vector_29
+                0x0000057e                __vector_40
+                0x0000057e                __vector_8
+                0x0000057e                __vector_48
+                0x0000057e                __vector_14
+                0x0000057e                __vector_53
+                0x0000057e                __vector_10
+                0x0000057e                __vector_50
+                0x0000057e                __vector_16
+                0x0000057e                __vector_18
+                0x0000057e                __vector_20
+                0x0000057e                __vector_42
+ .text          0x00000582        0x0 ./main.o
+ .text          0x00000582        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .text          0x00000582        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .text          0x00000582        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+ .text          0x00000582       0x38 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(system_tick.o)
+                0x00000582                system_tick
+ .text          0x000005ba        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(system_time.o)
+ .text          0x000005ba        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+ .text          0x000005ba        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(runtTimeStatsTimer.o)
+ .text          0x000005ba      0x712 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o)
+                0x000005ba                vfprintf
+ .text          0x00000ccc        0x0 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+ .text          0x00000ccc        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodsi4.o)
+ .text          0x00000ccc        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_prologue.o)
+ .text          0x00000ccc        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_epilogue.o)
+ .text          0x00000ccc        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_exit.o)
+ .text          0x00000ccc        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clear_bss.o)
+ .text          0x00000ccc      0x1b0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ftoa_engine.o)
+                0x00000ccc                __ftoa_engine
+ .text          0x00000e7c       0x12 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strlen_P.o)
+                0x00000e7c                strlen_P
+ .text          0x00000e8e       0x16 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strnlen_P.o)
+                0x00000e8e                strnlen_P
+ .text          0x00000ea4        0xe c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memset.o)
+                0x00000ea4                memset
+ .text          0x00000eb2       0x16 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strnlen.o)
+                0x00000eb2                strnlen
+ .text          0x00000ec8       0x58 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(fputc.o)
+                0x00000ec8                fputc
+ .text          0x00000f20       0x48 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(sprintf.o)
+                0x00000f20                sprintf
+ .text          0x00000f68       0x54 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(vsnprintf.o)
+                0x00000f68                vsnprintf
+ .text          0x00000fbc       0x54 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(vsnprintf_p.o)
+                0x00000fbc                vsnprintf_P
+ .text          0x00001010       0xbc c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ultoa_invert.o)
+                0x00001010                __ultoa_invert
+                0x000010cc                . = ALIGN (0x2)
+ *(.text.*)
+ .text.vApplicationStackOverflowHook
+                0x000010cc        0x6 ./main.o
+                0x000010cc                vApplicationStackOverflowHook
+ .text.main     0x000010d2       0xa0 ./main.o
+                0x000010d2                main
+ .text.TaskBlinkRedLED
+                0x00001172       0x6c ./main.o
+ .text.hot      0x000011de      0x2f8 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+                0x000011de                xPortGetFreeHeapSize
+                0x000011f4                vPortFree
+                0x000012da                pvPortMalloc
+                0x000011f2                vPortInitialiseBlocks
+                0x000011e8                xPortGetMinimumEverFreeHeapSize
+ .text.hot      0x000014d6     0x3098 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+                0x00001c00                vTaskPlaceOnUnorderedEventList
+                0x00002184                vTaskGetRunTimeStats
+                0x0000418c                vTaskEndScheduler
+                0x00001cde                vTaskPlaceOnEventList
+                0x00004198                xTaskGenericCreate
+                0x0000171c                uxTaskGetStackHighWaterMark
+                0x00001b52                xTaskResumeFromISR
+                0x000014e2                xTaskGetTickCount
+                0x0000190a                xTaskRemoveFromEventList
+                0x000040c2                vTaskDelete
+                0x00001520                xTaskCheckForTimeOut
+                0x000014d6                vTaskSuspendAll
+                0x000014f8                xTaskGetTickCountFromISR
+                0x00001796                vTaskPriorityDisinherit
+                0x000017fa                vTaskPriorityInherit
+                0x000037c4                vTaskResume
+                0x00001dae                vTaskSwitchContext
+                0x000015b4                vTaskSetTaskNumber
+                0x00003850                vTaskSuspend
+                0x00001504                uxTaskGetNumberOfTasks
+                0x00002cd2                vTaskList
+                0x000015a6                uxTaskGetTaskNumber
+                0x00003d82                vTaskDelayUntil
+                0x0000175a                xTaskGetCurrentTaskHandle
+                0x0000189a                xTaskRemoveFromUnorderedEventList
+                0x00001f0a                xTaskResumeAll
+                0x000043a2                vTaskStartScheduler
+                0x0000159e                vTaskMissedYield
+                0x0000199c                xTaskIncrementTick
+                0x00003a72                vTaskDelay
+                0x0000150a                vTaskSetTimeOutState
+                0x00001766                uxTaskResetEventItemValue
+ .text.uxTaskGetSystemState
+                0x0000456e      0x102 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+                0x0000456e                uxTaskGetSystemState
+ .text.hot      0x00004670      0x12a D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+                0x00004706                xPortStartScheduler
+                0x00004798                vPortEndScheduler
+                0x00004670                pxPortInitialiseStack
+ .text.vPortYieldFromTick
+                0x0000479a       0xf8 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+                0x0000479a                vPortYieldFromTick
+ .text.__vector_32
+                0x00004892        0x6 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+                0x00004892                __vector_32
+ .text.vPortYield
+                0x00004898       0xc2 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+                0x00004898                vPortYield
+ .text.vListInitialise
+                0x0000495a       0x20 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+                0x0000495a                vListInitialise
+ .text.vListInitialiseItem
+                0x0000497a        0x8 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+                0x0000497a                vListInitialiseItem
+ .text.vListInsertEnd
+                0x00004982       0x3e D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+                0x00004982                vListInsertEnd
+ .text.vListInsert
+                0x000049c0       0x64 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+                0x000049c0                vListInsert
+ .text.uxListRemove
+                0x00004a24       0x56 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+                0x00004a24                uxListRemove
+ .text.xconfigTimerForRunTimeStats
+                0x00004a7a       0x18 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(runtTimeStatsTimer.o)
+                0x00004a7a                xconfigTimerForRunTimeStats
+ .text.setDefaultUSART
+                0x00004a92        0x6 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00004a92                setDefaultUSART
+ .text.usartWrite
+                0x00004a98       0x52 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00004a98                usartWrite
+ .text.usartRead
+                0x00004aea       0x5c D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00004aea                usartRead
+ .text.usart_xflushRx
+                0x00004b46       0x82 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00004b46                usart_xflushRx
+ .text.usart_AvailableCharRx
+                0x00004bc8       0x2a D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00004bc8                usart_AvailableCharRx
+ .text.usart_xgetChar
+                0x00004bf2       0x8a D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00004bf2                usart_xgetChar
+ .text.usart_xputChar
+                0x00004c7c      0x116 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00004c7c                usart_xputChar
+ .text.usartCheckRxComplete
+                0x00004d92       0x24 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00004d92                usartCheckRxComplete
+ .text.usart_rx_isr
+                0x00004db6       0xd0 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00004db6                usart_rx_isr
+ .text.__vector_54
+                0x00004e86       0x52 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00004e86                __vector_54
+ .text.__vector_51
+                0x00004ed8       0x52 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00004ed8                __vector_51
+ .text.__vector_36
+                0x00004f2a       0x52 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00004f2a                __vector_36
+ .text.__vector_25
+                0x00004f7c       0x52 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00004f7c                __vector_25
+ .text.usart_tx_isr
+                0x00004fce       0xb6 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00004fce                usart_tx_isr
+ .text.__vector_55
+                0x00005084       0x52 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00005084                __vector_55
+ .text.__vector_52
+                0x000050d6       0x52 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x000050d6                __vector_52
+ .text.__vector_37
+                0x00005128       0x52 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00005128                __vector_37
+ .text.__vector_26
+                0x0000517a       0x52 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x0000517a                __vector_26
+ .text.usart_xfprint_P
+                0x000051cc       0x48 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x000051cc                usart_xfprint_P
+ .text.usart_xprint_P
+                0x00005214        0xc D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00005214                usart_xprint_P
+ .text.usart_fprint_P
+                0x00005220       0x8a D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00005220                usart_fprint_P
+ .text.usart_print_P
+                0x000052aa        0xc D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x000052aa                usart_print_P
+ .text.usart_xfprint
+                0x000052b6       0x50 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x000052b6                usart_xfprint
+ .text.usart_xfprintf_P_arg
+                0x00005306       0x7a D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00005306                usart_xfprintf_P_arg
+ .text.usart_xfprintf_arg
+                0x00005380       0x7a D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00005380                usart_xfprintf_arg
+ .text.usart_xprint
+                0x000053fa        0xc D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x000053fa                usart_xprint
+ .text.usart_fprint
+                0x00005406       0x84 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00005406                usart_fprint
+ .text.usart_fprintf_P_arg
+                0x0000548a       0x5c D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x0000548a                usart_fprintf_P_arg
+ .text.usart_fprintf_arg
+                0x000054e6       0x58 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x000054e6                usart_fprintf_arg
+ .text.usart_print
+                0x0000553e        0xc D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x0000553e                usart_print
+ .text.usart_xfprintf_P
+                0x0000554a       0x20 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x0000554a                usart_xfprintf_P
+ .text.usart_xfprintf
+                0x0000556a       0x20 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x0000556a                usart_xfprintf
+ .text.usart_xprintf_P
+                0x0000558a       0x20 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x0000558a                usart_xprintf_P
+ .text.usart_xprintf
+                0x000055aa       0x20 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x000055aa                usart_xprintf
+ .text.usart_fprintf_P
+                0x000055ca       0x20 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x000055ca                usart_fprintf_P
+ .text.usart_fprintf
+                0x000055ea       0x20 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x000055ea                usart_fprintf
+ .text.usart_printf_P
+                0x0000560a       0x20 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x0000560a                usart_printf_P
+ .text.usart_printf
+                0x0000562a       0x20 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x0000562a                usart_printf
+ .text.usartClose
+                0x0000564a       0x82 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x0000564a                usartClose
+ .text.usartOpen
+                0x000056cc      0x18a D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x000056cc                usartOpen
+ .text.libgcc   0x00005856       0x44 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodsi4.o)
+                0x00005856                __udivmodsi4
+ .text.libgcc   0x0000589a       0x38 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_prologue.o)
+                0x0000589a                __prologue_saves__
+ .text.libgcc   0x000058d2       0x36 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_epilogue.o)
+                0x000058d2                __epilogue_restores__
+ .text.libgcc   0x00005908        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_exit.o)
+ .text.libgcc   0x00005908        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clear_bss.o)
+                0x00005908                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00005908        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_exit.o)
+                0x00005908                exit
+                0x00005908                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00005908        0x4 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000590c                _etext = .
+
+.data           0x00800200       0x6a load address 0x0000590c
+                0x00800200                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800200        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+ .data          0x00800200        0x7 ./main.o
+ .data          0x00800207        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .data          0x00800207       0x35 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .data          0x0080023c        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+ .data          0x0080023c        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(system_tick.o)
+ .data          0x0080023c        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(system_time.o)
+ .data          0x0080023c        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+ .data          0x0080023c        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(runtTimeStatsTimer.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o)
+ .data          0x0080023c        0x0 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodsi4.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_prologue.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_epilogue.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_exit.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clear_bss.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ftoa_engine.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strlen_P.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strnlen_P.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memset.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strnlen.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(fputc.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(sprintf.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(vsnprintf.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(vsnprintf_p.o)
+ .data          0x0080023c        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ultoa_invert.o)
+ *(.data*)
+ .data.xMinimumEverFreeBytesRemaining
+                0x0080023c        0x2 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .data.xFreeBytesRemaining
+                0x0080023e        0x2 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .data.xNextTaskUnblockTime
+                0x00800240        0x2 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .data.usartReg
+                0x00800242       0x28 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x00800242                usartReg
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080026a                . = ALIGN (0x2)
+                0x0080026a                _edata = .
+                0x0080026a                PROVIDE (__data_end, .)
+
+.bss            0x0080026a     0x12f1
+                0x0080026a                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6/crtm2560.o
+ .bss           0x0080026a        0x0 ./main.o
+ .bss           0x0080026a        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .bss           0x0080026a        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss           0x0080026a        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+ .bss           0x0080026a        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(system_tick.o)
+ .bss           0x0080026a        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(system_time.o)
+ .bss           0x0080026a        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(list.o)
+ .bss           0x0080026a        0x0 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(runtTimeStatsTimer.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libprintf_flt.a(vfprintf_flt.o)
+ .bss           0x0080026a        0x0 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_udivmodsi4.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_prologue.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_epilogue.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_exit.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr6\libgcc.a(_clear_bss.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ftoa_engine.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strlen_P.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strnlen_P.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(memset.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(strnlen.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(fputc.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(sprintf.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(vsnprintf.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(vsnprintf_p.o)
+ .bss           0x0080026a        0x0 c:/eclipse/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr6\libc.a(ultoa_invert.o)
+ *(.bss*)
+ .bss.xBlockAllocatedBit
+                0x0080026a        0x2 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .bss.pxEnd     0x0080026c        0x2 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .bss.ucHeap    0x0080026e     0x1200 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .bss.xStart    0x0080146e        0x4 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(heap_4.o)
+ .bss.pxCurrentTCB
+                0x00801472        0x2 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+                0x00801472                pxCurrentTCB
+ .bss.uxCurrentNumberOfTasks
+                0x00801474        0x1 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.uxTopReadyPriority
+                0x00801475        0x1 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xYieldPending
+                0x00801476        0x1 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xTickCount
+                0x00801477        0x2 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xNumOfOverflows
+                0x00801479        0x1 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.uxSchedulerSuspended
+                0x0080147a        0x1 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.ulTotalRunTime
+                0x0080147b        0x4 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.ulTaskSwitchedInTime
+                0x0080147f        0x4 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.uxPendedTicks
+                0x00801483        0x1 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xSchedulerRunning
+                0x00801484        0x1 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.uxTasksDeleted
+                0x00801485        0x1 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.uxTaskNumber
+                0x00801486        0x1 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.pxReadyTasksLists
+                0x00801487       0x24 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xDelayedTaskList1
+                0x008014ab        0x9 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xDelayedTaskList2
+                0x008014b4        0x9 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.pxDelayedTaskList
+                0x008014bd        0x2 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.pxOverflowDelayedTaskList
+                0x008014bf        0x2 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xPendingReadyList
+                0x008014c1        0x9 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xTasksWaitingTermination
+                0x008014ca        0x9 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.xSuspendedTaskList
+                0x008014d3        0x9 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(tasks.o)
+ .bss.portTickRateHz
+                0x008014dc        0x2 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+ .bss.ticksRemainingInSec
+                0x008014de        0x2 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(port.o)
+ .bss.defaultUSART
+                0x008014e0        0x1 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x008014e0                defaultUSART
+ *(COMMON)
+ COMMON         0x008014e1        0x2 ./main.o
+                0x008014e1                usartfd
+ COMMON         0x008014e3        0x4 D:/ProgDev/CPP/EclipseWS/freeRTOS/FreeRTOS801/Release/libFreeRTOS801.a(system_time.o)
+                0x008014e3                __system_time
+ COMMON         0x008014e7       0x74 D:\ProgDev\CPP\EclipseWS\freeRTOS\CEG4166_RTS_Lib\Release\libCEG4166_RTS_Lib.a(usartSerial.o)
+                0x008014e7                usartComBuf
+                0x0080155b                PROVIDE (__bss_end, .)
+                0x0000590c                __data_load_start = LOADADDR (.data)
+                0x00005976                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080155b        0x0
+                0x0080155b                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080155b                PROVIDE (__noinit_end, .)
+                0x0080155b                _end = .
+                0x0080155b                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(EmptyProject.elf elf32-avr)
+LOAD linker stubs

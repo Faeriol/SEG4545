@@ -1,0 +1,552 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="template_8c" kind="file" language="C++">
+    <compoundname>template.c</compoundname>
+    <includes refid="template_8h" local="yes">template.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="yes">avr/io.h</includes>
+    <includes local="yes">avr/interrupt.h</includes>
+    <incdepgraph>
+      <node id="24">
+        <label>template.h</label>
+        <link refid="template_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>avr/interrupt.h</label>
+      </node>
+      <node id="25">
+        <label>stdlib.h</label>
+      </node>
+      <node id="27">
+        <label>avr/io.h</label>
+      </node>
+      <node id="23">
+        <label>template.c</label>
+        <link refid="template.c"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="template_8c_1aa292137032b645eef0bb9f5008b737b9" prot="public" static="no">
+        <name>MACRO_SF</name>
+        <initializer>999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provide description for documentation purpose </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="template.c" line="60" column="9" bodyfile="template.c" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="template_8c_1a395dbc90e8c7a0ac05b0cf8c6438b7e5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int global_variable_sf</definition>
+        <argsstring></argsstring>
+        <name>global_variable_sf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provide description for documentation purpose </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="template.c" line="82" column="1" bodyfile="template.c" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="template_8c_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Main entry point for the program. Provide short description. </para>        </briefdescription>
+        <detaileddescription>
+<para>Provide detailed description on the functionality of program and other related points. <simplesect kind="note"><para><ref refid="template_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main()</ref> function can be only appear in one module, which is the main entry point of program; hence remove it while coding a supporting module, which itself is not suppose to execute.</para></simplesect>
+<simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="template.c" line="110" column="1" bodyfile="template.c" bodystart="110" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="template_8c_1a8210bf00ef427ddd7cb7ac758778356c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void entry_point_function_one</definition>
+        <argsstring>(int parameter_one, float parameter_two, char *parameter_three, float parameter_four, int parameter_five)</argsstring>
+        <name>entry_point_function_one</name>
+        <param>
+          <type>int</type>
+          <declname>parameter_one</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>parameter_two</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>parameter_three</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>parameter_four</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>parameter_five</declname>
+        </param>
+        <briefdescription>
+<para>Provide short description on functionality of function. </para>        </briefdescription>
+        <detaileddescription>
+<para>Provide detailed description of function, including calling mechanism and return value.<itemizedlist>
+<listitem><para>Functions<orderedlist>
+<listitem><para>Function ...1</para></listitem><listitem><para>Function ...2</para></listitem><listitem><para>Function ...3</para></listitem></orderedlist>
+</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter_one</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_two</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_three</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_four</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_five</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="template.c" line="156" column="1" bodyfile="template.c" bodystart="156" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="template_8c_1a3bb155d761781f687f13cea299618968" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void entry_point_function_two</definition>
+        <argsstring>(int parameter_one, float parameter_two, char *parameter_three)</argsstring>
+        <name>entry_point_function_two</name>
+        <param>
+          <type>int</type>
+          <declname>parameter_one</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>parameter_two</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>parameter_three</declname>
+        </param>
+        <briefdescription>
+<para>Provide short description on functionality of function. </para>        </briefdescription>
+        <detaileddescription>
+<para>Provide detailed description of function, including calling mechanism and return value.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter_one</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_two</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_three</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="template.c" line="172" column="1" bodyfile="template.c" bodystart="172" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="template_8c_1ae15c1828ca7bb40709c3b4b1224c02cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float local_function_one</definition>
+        <argsstring>(int parameter_one, float parameter_two, char *parameter_three)</argsstring>
+        <name>local_function_one</name>
+        <param>
+          <type>int</type>
+          <declname>parameter_one</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>parameter_two</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>parameter_three</declname>
+        </param>
+        <briefdescription>
+<para>Provide short description on functionality of function. </para>        </briefdescription>
+        <detaileddescription>
+<para>Provide detailed description of function</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter_one</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_two</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_three</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="template.c" line="193" column="1" bodyfile="template.c" bodystart="193" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="template_8c_1a6493901a6ddd614d6f9b0d3d72d0d414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float local_function_two</definition>
+        <argsstring>(int parameter_one, float parameter_two, char *parameter_three, float parameter_four, int parameter_five)</argsstring>
+        <name>local_function_two</name>
+        <param>
+          <type>int</type>
+          <declname>parameter_one</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>parameter_two</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>parameter_three</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>parameter_four</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>parameter_five</declname>
+        </param>
+        <briefdescription>
+<para>Provide short description on functionality of function. </para>        </briefdescription>
+        <detaileddescription>
+<para>Provide detailed description of function</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter_one</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_two</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_three</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_four</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_five</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="template.c" line="212" column="1" bodyfile="template.c" bodystart="212" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="template_8c_1a1b97fa4a9ffcf4b70a6403ba26fd3a5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ISR</definition>
+        <argsstring>(INT4_vect, ISR_BLOCK)</argsstring>
+        <name>ISR</name>
+        <param>
+          <type>INT4_vect</type>
+        </param>
+        <param>
+          <type>ISR_BLOCK</type>
+        </param>
+        <briefdescription>
+<para>Provide short description on interrupt service routine. </para>        </briefdescription>
+        <detaileddescription>
+<para>Provide detailed description of interrupt service routine </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="template.c" line="232" column="1" bodyfile="template.c" bodystart="232" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="template_8c_1a451a644f2b139393fc1fe1cf7373cb93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ISR</definition>
+        <argsstring>(USART0_RX_vect, ISR_BLOCK)</argsstring>
+        <name>ISR</name>
+        <param>
+          <type>USART0_RX_vect</type>
+        </param>
+        <param>
+          <type>ISR_BLOCK</type>
+        </param>
+        <briefdescription>
+<para>Provide short description on interrupt service routine. </para>        </briefdescription>
+        <detaileddescription>
+<para>Provide detailed description of interrupt service routine </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="template.c" line="248" column="1" bodyfile="template.c" bodystart="248" bodyend="252"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provide short summary on function and the contents of file. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>provide author details </para></simplesect>
+<simplesect kind="date"><para>provide date</para></simplesect>
+Provide detailed description </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>template.c</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>template_project</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>Jun<sp/>10,<sp/>2015</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>shailendrasingh</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CODING<sp/>STANDARDS:</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Program<sp/>file:<sp/>Section<sp/>I.<sp/>Prologue:<sp/>description<sp/>about<sp/>the<sp/>file,<sp/>description<sp/>author(s),<sp/>revision<sp/>control</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>information,<sp/>references,<sp/>etc.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">/*(Doxygen<sp/>help:<sp/>use<sp/>\brief<sp/>to<sp/>provide<sp/>short<sp/>summary<sp/>and<sp/>\details<sp/>command<sp/>can<sp/>be<sp/>used)*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="comment">/******************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CODING<sp/>STANDARDS:</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>Program<sp/>file:<sp/>Section<sp/>II.<sp/>Include(s):<sp/>header<sp/>file<sp/>includes.<sp/>System<sp/>include<sp/>files<sp/>and<sp/>then<sp/>user<sp/>include<sp/>files.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ensure<sp/>to<sp/>add<sp/>comments<sp/>for<sp/>an<sp/>inclusion<sp/>which<sp/>is<sp/>not<sp/>very<sp/>obvious.<sp/>Suggested<sp/>order<sp/>of<sp/>inclusion<sp/>is</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>System<sp/>-&gt;<sp/>Other<sp/>Modules<sp/>-&gt;<sp/>Same<sp/>Module<sp/>-&gt;<sp/>Specific<sp/>to<sp/>this<sp/>file</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>Note:<sp/>Avoid<sp/>nested<sp/>inclusions.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>--Includes--<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="template_8h" kindref="compound">template.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*AVR<sp/>includes*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;avr/io.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;avr/interrupt.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">/*include<sp/>your<sp/>header<sp/>files<sp/>here*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CODING<sp/>STANDARDS:</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>Program<sp/>file:<sp/>Section<sp/>III.<sp/>Defines<sp/>and<sp/>typedefs:<sp/>order<sp/>of<sp/>appearance<sp/>-&gt;<sp/>constant<sp/>macros,<sp/>function<sp/>macros,</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>typedefs<sp/>and<sp/>then<sp/>enums.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*<sp/>Naming<sp/>convention:<sp/>Use<sp/>upper<sp/>case<sp/>and<sp/>words<sp/>joined<sp/>with<sp/>an<sp/>underscore<sp/>(_).<sp/>Limit<sp/><sp/>the<sp/><sp/>use<sp/><sp/>of<sp/><sp/>abbreviations.</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*<sp/>Constants:<sp/>define<sp/>and<sp/>use<sp/>constants,<sp/>rather<sp/>than<sp/>using<sp/>numerical<sp/>values;<sp/>it<sp/>make<sp/>code<sp/>more<sp/>readable,<sp/>and<sp/>easier</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>to<sp/>modify.</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">/*put<sp/>your<sp/>macros,<sp/>typedefs<sp/>and<sp/>enumerations<sp/>here*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="template_8c_1aa292137032b645eef0bb9f5008b737b9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MACRO_SF<sp/>999<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="preprocessor"></highlight><highlight class="comment">/******************************************************************************************************************/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CODING<sp/>STANDARDS:</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/>*<sp/>Program<sp/>file:<sp/>Section<sp/>IV.<sp/>Global<sp/><sp/><sp/>or<sp/><sp/><sp/>external<sp/><sp/><sp/>data<sp/><sp/><sp/>declarations<sp/>-&gt;<sp/>externs,<sp/>non­static<sp/>globals,<sp/>and<sp/>then</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>static<sp/>globals.</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>Naming<sp/>convention:<sp/>variables<sp/>names<sp/>must<sp/>be<sp/>meaningful<sp/>lower<sp/>case<sp/>and<sp/>words<sp/>joined<sp/>with<sp/>an<sp/>underscore<sp/>(_).<sp/>Limit</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/><sp/>use<sp/><sp/>of<sp/><sp/>abbreviations.</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/>Guidelines<sp/>for<sp/>variable<sp/>declaration:</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1)<sp/>Do<sp/>not<sp/>group<sp/>unrelated<sp/>variables<sp/>declarations<sp/>even<sp/>if<sp/>of<sp/>same<sp/>data<sp/>type.</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2)<sp/>Do<sp/>not<sp/>declare<sp/>multiple<sp/>variables<sp/>in<sp/>one<sp/>declaration<sp/>that<sp/>spans<sp/>lines.<sp/>Start<sp/>a<sp/>new<sp/>declaration</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>on<sp/>each<sp/>line,<sp/>in­stead.</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3)<sp/>Move<sp/>the<sp/>declaration<sp/>of<sp/>each<sp/>local<sp/>variable<sp/>into<sp/>the<sp/>smallest<sp/>scope<sp/>that<sp/>includes<sp/>all<sp/>its<sp/>uses.</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>This<sp/>makes<sp/>the<sp/>program<sp/>cleaner.</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">/*put<sp/>your<sp/>global<sp/>or<sp/>external<sp/>data<sp/>declaration<sp/>here*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="template_8c_1a395dbc90e8c7a0ac05b0cf8c6438b7e5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="template_8c_1a395dbc90e8c7a0ac05b0cf8c6438b7e5" kindref="member">global_variable_sf</ref>;<sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="comment">/******************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CODING<sp/>STANDARDS</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>*<sp/>Program<sp/>file:<sp/>Section<sp/>V.<sp/>Functions:<sp/>order<sp/>on<sp/>abstraction<sp/>level<sp/>or<sp/>usage;<sp/>and<sp/>if<sp/>independent<sp/>alphabetical</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>or­dering<sp/>is<sp/>good<sp/>choice.</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*<sp/>1)<sp/>Declare<sp/>all<sp/>the<sp/>functions<sp/>(entry<sp/>points,<sp/>external<sp/>functions,<sp/>local<sp/>functions,<sp/>and<sp/>ISR-interrupt<sp/>service</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>routines)<sp/>before<sp/>first<sp/>function<sp/>definition<sp/>in<sp/>the<sp/>program<sp/>file<sp/>or<sp/>in<sp/>header<sp/>file<sp/>and<sp/>include<sp/>it;<sp/>and<sp/>define</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>functions<sp/>in<sp/>the<sp/>same<sp/>order<sp/>as<sp/>of<sp/>declaration.</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*<sp/>2)<sp/>Suggested<sp/>order<sp/>of<sp/>declaration<sp/>and<sp/>definition<sp/>of<sp/>functions<sp/>is</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>Entry<sp/>points<sp/>-&gt;<sp/>External<sp/>functions<sp/>-&gt;<sp/>Local<sp/>functions<sp/>-&gt;<sp/>ISR-Interrupt<sp/>Service<sp/>Routines</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/>*<sp/>3)<sp/>Declare<sp/>function<sp/>names,<sp/>parameters<sp/>(names<sp/>and<sp/>types)<sp/>and<sp/>re­turn<sp/>type<sp/>in<sp/>one<sp/>line;<sp/>if<sp/>not<sp/>possible<sp/>fold<sp/>it<sp/>at</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>an<sp/>appropriate<sp/>place<sp/>to<sp/>make<sp/>it<sp/>easily<sp/>readable.</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>*<sp/>4)<sp/>No<sp/>function<sp/>definition<sp/>should<sp/>be<sp/>longer<sp/>than<sp/>a<sp/>page<sp/>or<sp/>screen<sp/>long.<sp/>If<sp/>it<sp/>is<sp/>long,<sp/>try<sp/>and<sp/>split<sp/>it<sp/>into<sp/>two</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>or<sp/>more<sp/>functions.</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>*<sp/>5)<sp/>Indentation<sp/>and<sp/>Spacing:<sp/>this<sp/>can<sp/>improve<sp/>the<sp/>readability<sp/>of<sp/>the<sp/>source<sp/>code<sp/>greatly.<sp/>Tabs<sp/>should<sp/>be<sp/>used<sp/>to</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>indent<sp/>code,<sp/>rather<sp/>than<sp/>spaces;<sp/>because<sp/>spaces<sp/>can<sp/>often<sp/>be<sp/>out<sp/>by<sp/>one<sp/>and<sp/>lead<sp/>to<sp/>confusions.</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*<sp/>6)<sp/>Keep<sp/>the<sp/>length<sp/>of<sp/>source<sp/>lines<sp/>to<sp/>79<sp/>characters<sp/>or<sp/>less,<sp/>for<sp/>max­imum<sp/>readability.</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------<sp/><sp/>Function<sp/>Declarations<sp/><sp/>-------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*<sp/>Declare<sp/>all<sp/>your<sp/>functions,<sp/>except<sp/>for<sp/>entry<sp/>points,<sp/>for<sp/>the<sp/>module<sp/>here;<sp/>ensure<sp/>to<sp/>follow<sp/>the<sp/>same<sp/>order<sp/>while</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/>*<sp/>defining<sp/>them<sp/>later.</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="template_8c_1a840291bc02cba5474a4cb46a9b9566fe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="template_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>__attribute__((OS_main));</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="template_8c_1ae15c1828ca7bb40709c3b4b1224c02cc" kindref="member">local_function_one</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parameter_one,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>parameter_two,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*parameter_three);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="template_8c_1a6493901a6ddd614d6f9b0d3d72d0d414" kindref="member">local_function_two</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parameter_one,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>parameter_two,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*parameter_three,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>parameter_four,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parameter_five);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><ref refid="template_8c_1a1b97fa4a9ffcf4b70a6403ba26fd3a5c" kindref="member">ISR</ref><sp/>(INT4_vect,<sp/>ISR_BLOCK<sp/>);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><ref refid="template_8c_1a1b97fa4a9ffcf4b70a6403ba26fd3a5c" kindref="member">ISR</ref><sp/>(USART0_RX_vect,<sp/>ISR_BLOCK<sp/>);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------<sp/><sp/>ENTRY<sp/>POINTS<sp/><sp/>---------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="comment">/*define<sp/>your<sp/>entry<sp/>points<sp/>here*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="comment">/*(Doxygen<sp/>help:<sp/>use<sp/>\brief<sp/>to<sp/>provide<sp/>short<sp/>summary,<sp/>\details<sp/>for<sp/>detailed<sp/>description<sp/>and<sp/>\param<sp/>for<sp/>parameters<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="template_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="template_8c_1a8210bf00ef427ddd7cb7ac758778356c" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="template_8c_1a8210bf00ef427ddd7cb7ac758778356c" kindref="member">entry_point_function_one</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parameter_one,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>parameter_two,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*parameter_three,</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>parameter_four,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parameter_five){</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*put<sp/>your<sp/>code<sp/>here*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="template_8c_1a3bb155d761781f687f13cea299618968" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="template_8c_1a3bb155d761781f687f13cea299618968" kindref="member">entry_point_function_two</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parameter_one,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>parameter_two,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*parameter_three){</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*put<sp/>your<sp/>code<sp/>here*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------<sp/><sp/>LOCAL<sp/>FUNCTIONS<sp/><sp/>------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="comment">/*define<sp/>your<sp/>local<sp/>functions<sp/>here*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="comment">/*(Doxygen<sp/>help:<sp/>use<sp/>\brief<sp/>to<sp/>provide<sp/>short<sp/>summary,<sp/>\details<sp/>for<sp/>detailed<sp/>description<sp/>and<sp/>\param<sp/>for<sp/>parameters<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="template_8c_1ae15c1828ca7bb40709c3b4b1224c02cc" refkind="member"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="template_8c_1ae15c1828ca7bb40709c3b4b1224c02cc" kindref="member">local_function_one</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parameter_one,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>parameter_two,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*parameter_three){</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*put<sp/>your<sp/>code<sp/>here*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="template_8c_1a6493901a6ddd614d6f9b0d3d72d0d414" refkind="member"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="template_8c_1a6493901a6ddd614d6f9b0d3d72d0d414" kindref="member">local_function_two</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parameter_one,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>parameter_two,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*parameter_three,</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>parameter_four,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parameter_five){</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*put<sp/>your<sp/>code<sp/>here*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------<sp/><sp/>ISR-Interrupt<sp/>Service<sp/>Routines<sp/><sp/>---------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="comment">/*define<sp/>your<sp/>Interrupt<sp/>Service<sp/>Routines<sp/>here*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment">/*(Doxygen<sp/>help:<sp/>use<sp/>\brief<sp/>to<sp/>provide<sp/>short<sp/>summary,<sp/>\details<sp/>for<sp/>detailed<sp/>description<sp/>and<sp/>\param<sp/>for<sp/>parameters<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="template_8c_1a1b97fa4a9ffcf4b70a6403ba26fd3a5c" refkind="member"><highlight class="normal"><ref refid="template_8c_1a1b97fa4a9ffcf4b70a6403ba26fd3a5c" kindref="member">ISR</ref><sp/>(INT4_vect,<sp/>ISR_BLOCK<sp/>){</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*put<sp/>your<sp/>code<sp/>here,<sp/>which<sp/>to<sp/>be<sp/>executed<sp/>when<sp/>interrupt<sp/>is<sp/>received<sp/>or<sp/>raised*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="comment">/*Based<sp/>on<sp/>target<sp/>hardware/micro-controller<sp/>there<sp/>can<sp/>be<sp/>various<sp/>interrupts,<sp/>few<sp/>of<sp/>the<sp/>interrupts<sp/>from<sp/>ATmega2560<sp/>are</highlight></codeline>
+<codeline lineno="238"><highlight class="comment"><sp/>*<sp/>INT4_vect<sp/>-&gt;<sp/>External<sp/>Interrupt<sp/>Request<sp/>4</highlight></codeline>
+<codeline lineno="239"><highlight class="comment"><sp/>*<sp/>USART0_RX_vect<sp/>-&gt;<sp/>USART0,<sp/>Rx<sp/>Complete</highlight></codeline>
+<codeline lineno="240"><highlight class="comment"><sp/>*<sp/>TIM1_OVF_vect<sp/>-&gt;<sp/>Timer/Counter1<sp/>Overflow</highlight></codeline>
+<codeline lineno="241"><highlight class="comment"><sp/>*<sp/>USART0_TX_vect<sp/>-&gt;<sp/>USART0,<sp/>Tx<sp/>Complete</highlight></codeline>
+<codeline lineno="242"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="template_8c_1a451a644f2b139393fc1fe1cf7373cb93" refkind="member"><highlight class="normal"><ref refid="template_8c_1a1b97fa4a9ffcf4b70a6403ba26fd3a5c" kindref="member">ISR</ref><sp/>(USART0_RX_vect,<sp/>ISR_BLOCK<sp/>){</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*put<sp/>your<sp/>code<sp/>here,<sp/>which<sp/>to<sp/>be<sp/>executed<sp/>when<sp/>interrupt<sp/>is<sp/>received<sp/>or<sp/>raised*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="template.c"/>
+  </compounddef>
+</doxygen>

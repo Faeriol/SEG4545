@@ -1,0 +1,208 @@
+\section{usart\+Serial.\+c File Reference}
+\label{usart_serial_8c}\index{usart\+Serial.\+c@{usart\+Serial.\+c}}
+
+
+Module for asynchronous communication with the Atmega2560 U\+S\+A\+R\+T\textquotesingle{}s.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdarg.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+{\ttfamily \#include $<$util/delay.\+h$>$}\\*
+{\ttfamily \#include $<$avr/io.\+h$>$}\\*
+{\ttfamily \#include $<$avr/interrupt.\+h$>$}\\*
+{\ttfamily \#include $<$avr/pgmspace.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}Free\+R\+T\+O\+S.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}task.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}queue.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ring\+Buffer.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Bit\+Definitions.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}usart\+Serial.\+h\char`\"{}}\\*
+Include dependency graph for usart\+Serial.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{usart_serial_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct {\bf U\+S\+A\+R\+T\+\_\+\+C\+O\+M\+\_\+\+B\+U\+F}
+\begin{DoxyCompactList}\small\item\em Structure of buffers to support communications with a U\+S\+A\+R\+T. \end{DoxyCompactList}\item 
+struct {\bf U\+S\+A\+R\+T\+\_\+\+R\+E\+G\+I\+S\+T\+E\+R\+S}
+\begin{DoxyCompactList}\small\item\em Structure of pointers to U\+S\+A\+R\+T registers. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries R\+X\+C\+\_\+\+B\+I\+T}~B\+I\+T7\label{group__usart_async_module_ga2133aeaf30d1d8f6f819d2252dcdbe8c}
+
+\item 
+\#define {\bfseries T\+X\+C\+\_\+\+B\+I\+T}~B\+I\+T6\label{group__usart_async_module_ga6baa91108d3c2d172e44bc70956b98d2}
+
+\item 
+\#define {\bfseries U\+D\+R\+E\+\_\+\+B\+I\+T}~B\+I\+T5\label{group__usart_async_module_ga774a9a790e2e547044eddf47e931a1f8}
+
+\item 
+\#define {\bfseries F\+E\+\_\+\+B\+I\+T}~B\+I\+T4\label{group__usart_async_module_gaaee51057462df51f411e67a131165914}
+
+\item 
+\#define {\bfseries D\+O\+R\+\_\+\+B\+I\+T}~B\+I\+T3\label{group__usart_async_module_ga42bba56b7ce519d770f6791da46b3f64}
+
+\item 
+\#define {\bfseries U\+P\+E\+\_\+\+B\+I\+T}~B\+I\+T2\label{group__usart_async_module_gaaa081c9d68175cca9b7a57927616baf1}
+
+\item 
+\#define {\bfseries U2\+X\+\_\+\+B\+I\+T}~B\+I\+T1\label{group__usart_async_module_gaffd8feb2e774dd114102f1f8be6599aa}
+
+\item 
+\#define {\bfseries R\+X\+C\+I\+E\+\_\+\+B\+I\+T}~B\+I\+T7\label{group__usart_async_module_ga4155881309ac7b270c766149bc9a4bbd}
+
+\item 
+\#define {\bfseries U\+D\+R\+I\+E\+\_\+\+B\+I\+T}~B\+I\+T5\label{group__usart_async_module_gaf64c1f6cfda10c415407572973d3f71c}
+
+\item 
+\#define {\bfseries R\+X\+E\+N\+\_\+\+B\+I\+T}~B\+I\+T4\label{group__usart_async_module_ga906dab704ddcdb3d2d06384a94126c23}
+
+\item 
+\#define {\bfseries T\+X\+E\+N\+\_\+\+B\+I\+T}~B\+I\+T3\label{group__usart_async_module_gae3f799c1bacbb79826d19f6f68c9ddde}
+
+\item 
+\#define {\bfseries U\+C\+S\+Z1\+\_\+\+B\+I\+T}~B\+I\+T2\label{group__usart_async_module_ga9f7f7ba3dc9cf8409364251f5167589d}
+
+\item 
+\#define {\bfseries U\+C\+S\+Z0\+\_\+\+B\+I\+T}~B\+I\+T1\label{group__usart_async_module_gabc8fadc00f40b4574889185ded4f33f2}
+
+\item 
+\#define {\bfseries N\+U\+M\+\_\+\+U\+S\+A\+R\+T\+S}~4\label{group__usart_async_module_ga6829feca87a1bc576152b06505b91617}
+
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bf U\+S\+A\+R\+T\+\_\+\+S\+T\+A\+T\+E} \{ {\bf V\+A\+C\+A\+N\+T}, 
+{\bf E\+N\+G\+A\+G\+E\+D}
+ \}
+\begin{DoxyCompactList}\small\item\em Defines the state of the U\+S\+A\+R\+T. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int8\+\_\+t {\bf usart\+Check\+Rx\+Complete} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id)
+\begin{DoxyCompactList}\small\item\em Check if reception is complete. The function returns the status of the R\+X\+C bit of the U\+S\+A\+R\+T. When set, the bit indicates that data can be read from the U\+S\+A\+R\+T. \end{DoxyCompactList}\item 
+int8\+\_\+t {\bf usart\+Check\+Tx\+Ready} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id)
+\begin{DoxyCompactList}\small\item\em Check if transmission is complete. The function returns the status of the U\+D\+R\+E bit of the U\+S\+A\+R\+T. When set, the bit indicates that data can be written to the U\+S\+A\+R\+T. \end{DoxyCompactList}\item 
+void {\bfseries usart\+\_\+fprintf\+\_\+arg} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id, const char $\ast$format, va\+\_\+list ap)\label{group__usart_async_module_gad3cf1cbb614711dcb8b73f7b7066cc24}
+
+\item 
+void {\bfseries usart\+\_\+fprintf\+\_\+\+P\+\_\+arg} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id, P\+G\+M\+\_\+\+P format, va\+\_\+list arg)\label{group__usart_async_module_ga8b9e6d432ec75ce20fd8225d02cd8340}
+
+\item 
+void {\bfseries usart\+\_\+xfprintf\+\_\+arg} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id, const char $\ast$format, va\+\_\+list arg)\label{group__usart_async_module_ga7f6efaab6a3c0a43d34bcce2f45a9062}
+
+\item 
+void {\bfseries usart\+\_\+xfprintf\+\_\+\+P\+\_\+arg} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id, P\+G\+M\+\_\+\+P format, va\+\_\+list arg)\label{group__usart_async_module_ga33e17cf0120f57e061a736a8eeb93fce}
+
+\item 
+void {\bf xmit\+Interrupt\+\_\+\+On} (U\+S\+A\+R\+T\+\_\+\+I\+D)
+\item 
+void {\bf xmit\+Interrupt\+\_\+\+Off} (U\+S\+A\+R\+T\+\_\+\+I\+D)
+\item 
+void {\bf usart\+\_\+rx\+\_\+isr} (U\+S\+A\+R\+T\+\_\+\+I\+D)
+\item 
+void {\bf usart\+\_\+tx\+\_\+isr} (U\+S\+A\+R\+T\+\_\+\+I\+D)
+\item 
+U\+S\+A\+R\+T\+\_\+\+I\+D {\bf usart\+Open} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id, uint32\+\_\+t ul\+Wanted\+Baud, uint16\+\_\+t ux\+Tx\+Queue\+Length, uint16\+\_\+t ux\+Rx\+Queue\+Length)
+\begin{DoxyCompactList}\small\item\em Open a connection on a U\+S\+A\+R\+T. \end{DoxyCompactList}\item 
+void {\bf set\+Default\+U\+S\+A\+R\+T} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id)
+\begin{DoxyCompactList}\small\item\em Update default U\+S\+A\+R\+T. \end{DoxyCompactList}\item 
+void {\bf usart\+Close} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id)
+\begin{DoxyCompactList}\small\item\em Close a connection on a U\+S\+A\+R\+T. \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+printf} (const char $\ast$format,...)
+\begin{DoxyCompactList}\small\item\em Standard printf function. \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+printf\+\_\+\+P} (P\+G\+M\+\_\+\+P format,...)
+\begin{DoxyCompactList}\small\item\em Standard printf function that uses a formating string stored in memory. \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+print} (uint8\+\_\+t $\ast$str)
+\begin{DoxyCompactList}\small\item\em Print string on default U\+S\+A\+R\+T. \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+print\+\_\+\+P} (P\+G\+M\+\_\+\+P str)
+\begin{DoxyCompactList}\small\item\em Print string stored in program memory on default U\+S\+A\+R\+T. \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+fprintf} (int usartid, const char $\ast$format,...)
+\begin{DoxyCompactList}\small\item\em Standard printf for specified U\+S\+A\+R\+T. \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+fprintf\+\_\+\+P} (int usart\+Id, P\+G\+M\+\_\+\+P format,...)
+\begin{DoxyCompactList}\small\item\em Standard printf function for specific U\+S\+A\+R\+T with formating string in program memory. \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+fprint} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id, uint8\+\_\+t $\ast$str)
+\begin{DoxyCompactList}\small\item\em Print string to specific U\+S\+A\+R\+T. \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+fprint\+\_\+\+P} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id, P\+G\+M\+\_\+\+P str)
+\begin{DoxyCompactList}\small\item\em Print a string stored in program memory to specific U\+S\+A\+R\+T. \end{DoxyCompactList}\item 
+void {\bf usart\+Write} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id, int8\+\_\+t data\+Out)
+\begin{DoxyCompactList}\small\item\em Low level write function (single character). Will delay until usart is ready to accept the 8 bit data. \end{DoxyCompactList}\item 
+int8\+\_\+t {\bf usart\+Read} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id)
+\begin{DoxyCompactList}\small\item\em Low level read function (single character). Delays until data available from the U\+S\+A\+R\+T. Will check for reception errors. \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+xprintf} (const char $\ast$format,...)
+\begin{DoxyCompactList}\small\item\em Standard printf (interrupt driven) to default U\+S\+A\+R\+T. \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+xprintf\+\_\+\+P} (P\+G\+M\+\_\+\+P format,...)
+\begin{DoxyCompactList}\small\item\em Standard printf (interrupt driven) to default U\+S\+A\+R\+T using formating string stored in program memory. \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+xprint} (uint8\+\_\+t $\ast$str)
+\begin{DoxyCompactList}\small\item\em Prints a string on the default U\+S\+A\+R\+T (defined by default\+U\+S\+A\+R\+T). \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+xprint\+\_\+\+P} (P\+G\+M\+\_\+\+P str)
+\begin{DoxyCompactList}\small\item\em Prints a string stored in program memory on the default U\+S\+A\+R\+T (defined by default\+U\+S\+A\+R\+T). \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+xfprintf} (int usart\+Id, const char $\ast$format,...)
+\begin{DoxyCompactList}\small\item\em Standard printf function for specific U\+S\+A\+R\+T. \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+xfprintf\+\_\+\+P} (int usart\+Id, P\+G\+M\+\_\+\+P format,...)
+\begin{DoxyCompactList}\small\item\em Standard printf function for specific U\+S\+A\+R\+T that uses a formating string stored in program memory. \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+xfprint} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id, uint8\+\_\+t $\ast$str)
+\begin{DoxyCompactList}\small\item\em Print string to specific U\+S\+A\+R\+T. \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+xfprint\+\_\+\+P} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id, P\+G\+M\+\_\+\+P str)
+\begin{DoxyCompactList}\small\item\em Print string stored in program memory to specific U\+S\+A\+R\+T. \end{DoxyCompactList}\item 
+void {\bf usart\+\_\+xflush\+Rx} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id)
+\begin{DoxyCompactList}\small\item\em Flushes all characters in the receive ring buffer (i.\+e. empties the buffer). \end{DoxyCompactList}\item 
+uint16\+\_\+t {\bf usart\+\_\+\+Available\+Char\+Rx} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id)
+\begin{DoxyCompactList}\small\item\em Gives number of bytes in reception ring buffer. \end{DoxyCompactList}\item 
+U\+Base\+Type\+\_\+t {\bf usart\+\_\+xget\+Char} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id, U\+Base\+Type\+\_\+t $\ast$pc\+Rxed\+Char)
+\begin{DoxyCompactList}\small\item\em Get a character from the reception ring buffer. \end{DoxyCompactList}\item 
+U\+Base\+Type\+\_\+t {\bf usart\+\_\+xput\+Char} (U\+S\+A\+R\+T\+\_\+\+I\+D usart\+Id, const U\+Base\+Type\+\_\+t c\+Out\+Char)
+\begin{DoxyCompactList}\small\item\em Drops a character into the transmit ring buffer. \end{DoxyCompactList}\item 
+{\bfseries I\+S\+R} (U\+S\+A\+R\+T0\+\_\+\+R\+X\+\_\+vect)\label{group__usart_async_module_ga084f0a9cf05b1877bd8a71a90dae7ff8}
+
+\item 
+{\bfseries I\+S\+R} (U\+S\+A\+R\+T1\+\_\+\+R\+X\+\_\+vect)\label{group__usart_async_module_gae6e8a8009a9ae0c59f25a496d1cf5a84}
+
+\item 
+{\bfseries I\+S\+R} (U\+S\+A\+R\+T2\+\_\+\+R\+X\+\_\+vect)\label{group__usart_async_module_ga63a86aad9ba2e355fe6380da553f554e}
+
+\item 
+{\bfseries I\+S\+R} (U\+S\+A\+R\+T3\+\_\+\+R\+X\+\_\+vect)\label{group__usart_async_module_ga88e32db0cad75219c51253f5c1052fc0}
+
+\item 
+{\bfseries I\+S\+R} (U\+S\+A\+R\+T0\+\_\+\+U\+D\+R\+E\+\_\+vect)\label{group__usart_async_module_ga95e67e677722a53e3ad9f1ffce2e7408}
+
+\item 
+{\bfseries I\+S\+R} (U\+S\+A\+R\+T1\+\_\+\+U\+D\+R\+E\+\_\+vect)\label{group__usart_async_module_gad6441110baf548d12ae53fcbed8075c5}
+
+\item 
+{\bfseries I\+S\+R} (U\+S\+A\+R\+T2\+\_\+\+U\+D\+R\+E\+\_\+vect)\label{group__usart_async_module_ga6dd0f9b7dad929f4170efd85c67e04ba}
+
+\item 
+{\bfseries I\+S\+R} (U\+S\+A\+R\+T3\+\_\+\+U\+D\+R\+E\+\_\+vect)\label{group__usart_async_module_ga965b31b0729ebabd50c26e4557d9609d}
+
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+{\bf U\+S\+A\+R\+T\+\_\+\+R\+E\+G\+I\+S\+T\+E\+R\+S} {\bf usart\+Reg} [$\,$]
+\item 
+{\bf U\+S\+A\+R\+T\+\_\+\+C\+O\+M\+\_\+\+B\+U\+F} {\bf usart\+Com\+Buf} [N\+U\+M\+\_\+\+U\+S\+A\+R\+T\+S]
+\item 
+U\+S\+A\+R\+T\+\_\+\+I\+D {\bf default\+U\+S\+A\+R\+T} = U\+S\+A\+R\+T0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Module for asynchronous communication with the Atmega2560 U\+S\+A\+R\+T\textquotesingle{}s. 
+
+\begin{DoxyAuthor}{Author}
+Gilbert Arbez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+May 26 2015 Both interrupt driven and polling functions are available.
+\end{DoxyDate}
+Uses free\+R\+T\+O\+S ring buffers to support interrupt functions. 

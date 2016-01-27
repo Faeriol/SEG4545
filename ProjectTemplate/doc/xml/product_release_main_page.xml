@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="product_release_main_page" kind="page">
+    <compoundname>product_release_main_page</compoundname>
+    <title>Release Notes:</title>
+    <innerpage refid="introduction">Introduction</innerpage>
+    <innerpage refid="requirements">Requirements</innerpage>
+    <innerpage refid="hardware_design">Hardwre Design</innerpage>
+    <innerpage refid="software_design">Software Design</innerpage>
+    <detaileddescription>
+<para>Foreword: provide brief description</para><para>This product release document is divided in the following sections:<itemizedlist>
+<listitem><para><ref refid="introduction" kindref="compound">Introduction</ref></para></listitem><listitem><para><ref refid="requirements" kindref="compound">Requirements</ref></para></listitem><listitem><para><ref refid="hardware_design" kindref="compound">Hardware Design</ref></para></listitem><listitem><para><ref refid="software_design" kindref="compound">Software Design</ref></para></listitem></itemizedlist>
+</para><para>For details on source code and related documentation visit respective section. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

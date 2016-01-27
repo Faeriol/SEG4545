@@ -1,0 +1,3 @@
+<map id="usartRead" name="usartRead">
+<area shape="rect" id="node2" href="$group__usart_async_module.html#ga590146f26805ddb1810fe874188aa10d" title="Check if reception is complete. The function returns the status of the RXC bit of the USART..." alt="" coords="135,5,293,32"/>
+</map>

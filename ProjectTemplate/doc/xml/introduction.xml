@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="introduction" kind="page">
+    <compoundname>introduction</compoundname>
+    <title>Introduction</title>
+    <detaileddescription>
+<para>Provide introduction, and abstract view of product function, and list of hardware</para><para>List of hardware:<itemizedlist>
+<listitem><para><ref refid="hardware_design_1hw_section_01" kindref="member">Section 01</ref>.</para></listitem><listitem><para><ref refid="hardware_design_1hw_section_02" kindref="member">Section 02</ref>.</para></listitem></itemizedlist>
+</para><para>Go back to <ref refid="product_release_main_page" kindref="compound">Release Note:Main Menu</ref>. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

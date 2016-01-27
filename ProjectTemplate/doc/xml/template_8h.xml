@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="template_8h" kind="file" language="C++">
+    <compoundname>template.h</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includedby refid="template_8c" local="yes">template.c</includedby>
+    <incdepgraph>
+      <node id="15">
+        <label>include/template.h</label>
+        <link refid="template.h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>stdlib.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="17">
+        <label>include/template.h</label>
+        <link refid="template.h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>template.c</label>
+        <link refid="template_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="template_8h_1a7138ed1511a8cbd3c982ce20071a83b7" prot="public" static="no">
+        <name>MACRO_HF</name>
+        <initializer>000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provide description for documentation purpose </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/template.h" line="68" column="9" bodyfile="include/template.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="template_8h_1a35eef0621f3687d2b6fe9712fbd68b55" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int global_variable_hf</definition>
+        <argsstring></argsstring>
+        <name>global_variable_hf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provide description for documentation purpose </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/template.h" line="85" column="1" bodyfile="include/template.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="template_8h_1a8210bf00ef427ddd7cb7ac758778356c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void entry_point_function_one</definition>
+        <argsstring>(int parameter_one, float parameter_two, char *parameter_three, float parameter_four, int parameter_five)</argsstring>
+        <name>entry_point_function_one</name>
+        <param>
+          <type>int</type>
+          <declname>parameter_one</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>parameter_two</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>parameter_three</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>parameter_four</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>parameter_five</declname>
+        </param>
+        <briefdescription>
+<para>Provide short description on functionality of function. </para>        </briefdescription>
+        <detaileddescription>
+<para>Provide detailed description of function, including calling mechanism and return value.<itemizedlist>
+<listitem><para>Functions<orderedlist>
+<listitem><para>Function ...1</para></listitem><listitem><para>Function ...2</para></listitem><listitem><para>Function ...3</para></listitem></orderedlist>
+</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter_one</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_two</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_three</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_four</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_five</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/template.h" line="104" column="1" bodyfile="template.c" bodystart="156" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="template_8h_1a3bb155d761781f687f13cea299618968" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void entry_point_function_two</definition>
+        <argsstring>(int parameter_one, float parameter_two, char *parameter_three)</argsstring>
+        <name>entry_point_function_two</name>
+        <param>
+          <type>int</type>
+          <declname>parameter_one</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>parameter_two</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>parameter_three</declname>
+        </param>
+        <briefdescription>
+<para>Provide short description on functionality of function. </para>        </briefdescription>
+        <detaileddescription>
+<para>Provide detailed description of function, including calling mechanism and return value.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter_one</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_two</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter_three</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Provide description </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="include/template.h" line="107" column="1" bodyfile="template.c" bodystart="172" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provide short summary on function and the contents of file. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>provide author details </para></simplesect>
+<simplesect kind="date"><para>provide date</para></simplesect>
+Provide detailed description </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>template.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>template_project</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>Jun<sp/>10,<sp/>2015</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>shailendrasingh</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CODING<sp/>STANDARDS</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Header<sp/>file:<sp/>Section<sp/>I.<sp/>Prologue:<sp/>description<sp/>about<sp/>the<sp/>file,<sp/>description<sp/>author(s),<sp/>revision<sp/>control</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>information,<sp/>references,<sp/>etc.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Note:<sp/>1.<sp/>Header<sp/>files<sp/>should<sp/>be<sp/>functionally<sp/>organized.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>2.<sp/>Declarations<sp/><sp/><sp/>for<sp/><sp/><sp/>separate<sp/><sp/><sp/>subsystems<sp/><sp/><sp/>should<sp/><sp/><sp/>be<sp/><sp/><sp/>in<sp/><sp/><sp/>separate</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">/*(Doxygen<sp/>help:<sp/>use<sp/>\brief<sp/>to<sp/>provide<sp/>short<sp/>summary<sp/>and<sp/>\details<sp/>command<sp/>can<sp/>be<sp/>used)*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="preprocessor">#ifndef<sp/>TEMPLATE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEMPLATE_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CODING<sp/>STANDARDS:</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>Header<sp/>file:<sp/>Section<sp/>II.<sp/>Include(s):<sp/>header<sp/>file<sp/>includes.<sp/>System<sp/>include<sp/>files<sp/>and<sp/>then<sp/>user<sp/>include<sp/>files.</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ensure<sp/>to<sp/>add<sp/>comments<sp/>for<sp/>an<sp/>inclusion<sp/>which<sp/>is<sp/>not<sp/>very<sp/>obvious.<sp/>Suggested<sp/>order<sp/>of<sp/>inclusion<sp/>is</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>System<sp/>-&gt;<sp/>Other<sp/>Modules<sp/>-&gt;<sp/>Same<sp/>Module<sp/>-&gt;<sp/>Specific<sp/>to<sp/>this<sp/>file</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>Note:<sp/>Avoid<sp/>nested<sp/>inclusions.</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>--Includes--<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">/*include<sp/>your<sp/>header<sp/>files<sp/>here*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CODING<sp/>STANDARDS</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*<sp/>Header<sp/>file:<sp/>Section<sp/>III.<sp/>Defines<sp/>and<sp/>typedefs:<sp/>order<sp/>of<sp/>appearance<sp/>-&gt;<sp/>constant<sp/>macros,<sp/>function<sp/>macros,</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>typedefs<sp/>and<sp/>then<sp/>enums.</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*<sp/>Custom<sp/>data<sp/>types<sp/>and<sp/>typedef:<sp/>these<sp/>definitions<sp/>are<sp/>best<sp/>placed<sp/>in<sp/>a<sp/>header<sp/>file<sp/>so<sp/>that<sp/>all<sp/>source<sp/>code</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/>files<sp/>which<sp/>rely<sp/>on<sp/>that<sp/>header<sp/>file<sp/>have<sp/>access<sp/>to<sp/>the<sp/>same<sp/>set<sp/>of<sp/>definitions.<sp/>This<sp/>also<sp/>makes<sp/>it<sp/>easier</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>to<sp/>modify.</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>Naming<sp/>convention:<sp/>Use<sp/>upper<sp/>case<sp/>and<sp/>words<sp/>joined<sp/>with<sp/>an<sp/>underscore<sp/>(_).<sp/>Limit<sp/><sp/>the<sp/><sp/>use<sp/><sp/>of<sp/><sp/>abbreviations.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/>Constants:<sp/>define<sp/>and<sp/>use<sp/>constants,<sp/>rather<sp/>than<sp/>using<sp/>numerical<sp/>values;<sp/>it<sp/>make<sp/>code<sp/>more<sp/>readable,<sp/>and<sp/>easier</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>to<sp/>modify.</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*<sp/>Note:<sp/>Avoid<sp/>initialized<sp/>data<sp/>definitions.</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">/*put<sp/>your<sp/>macros,<sp/>typedefs<sp/>and<sp/>enumerations<sp/>here*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="template_8h_1a7138ed1511a8cbd3c982ce20071a83b7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MACRO_HF<sp/>000<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="preprocessor"></highlight><highlight class="comment">/******************************************************************************************************************/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CODING<sp/>STANDARDS:</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*<sp/>Header<sp/>file:<sp/>Section<sp/>IV.<sp/>Global<sp/><sp/><sp/>or<sp/><sp/><sp/>external<sp/><sp/><sp/>data<sp/><sp/><sp/>declarations<sp/>-&gt;<sp/>externs,<sp/>non­static<sp/>globals,<sp/>and<sp/>then</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>static<sp/>globals.</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/>*<sp/>Naming<sp/>convention:<sp/>variables<sp/>names<sp/>must<sp/>be<sp/>meaningful<sp/>lower<sp/>case<sp/>and<sp/>words<sp/>joined<sp/>with<sp/>an<sp/>underscore<sp/>(_).<sp/>Limit</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/><sp/>use<sp/><sp/>of<sp/><sp/>abbreviations.</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">/*put<sp/>your<sp/>macros,<sp/>typedefs<sp/>and<sp/>enumerations<sp/>here*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="template_8h_1a35eef0621f3687d2b6fe9712fbd68b55" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="template_8h_1a35eef0621f3687d2b6fe9712fbd68b55" kindref="member">global_variable_hf</ref>;<sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="comment">/******************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CODING<sp/>STANDARDS</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*<sp/>Header<sp/>file:<sp/>Section<sp/>V.<sp/>Functions:<sp/>order<sp/>on<sp/>abstraction<sp/>level<sp/>or<sp/>usage;<sp/>and<sp/>if<sp/>independent<sp/>alphabetical</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>or­dering<sp/>is<sp/>good<sp/>choice.</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/>*<sp/>1)<sp/>Declare<sp/>all<sp/>the<sp/>entry<sp/>point<sp/>functions.</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/>*<sp/>2)<sp/>Declare<sp/>function<sp/>names,<sp/>parameters<sp/>(names<sp/>and<sp/>types)<sp/>and<sp/>re­turn<sp/>type<sp/>in<sp/>one<sp/>line;<sp/>if<sp/>not<sp/>possible<sp/>fold<sp/>it<sp/>at</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>an<sp/>appropriate<sp/>place<sp/>to<sp/>make<sp/>it<sp/>easily<sp/>readable.</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------<sp/><sp/>ENTRY<sp/>POINTS<sp/><sp/>---------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="comment">/*Declare<sp/>your<sp/>entry<sp/>points<sp/>here*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="template_8h_1a8210bf00ef427ddd7cb7ac758778356c" kindref="member">entry_point_function_one</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parameter_one,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>parameter_two,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*parameter_three,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>parameter_four,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parameter_five);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="template_8h_1a3bb155d761781f687f13cea299618968" kindref="member">entry_point_function_two</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parameter_one,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>parameter_two,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*parameter_three);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>TEMPLATE_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="include/template.h"/>
+  </compounddef>
+</doxygen>
